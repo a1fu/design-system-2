@@ -1,0 +1,31 @@
+@import '../tokens/colors.scss';
+
+//borders
+.border{ border: 1px solid $color-ebeb }
+.border-t{ border-top: 1px solid $color-ebeb }
+.border-b{ border-bottom: 1px solid $color-ebeb }
+.border-l{ border-left: 1px solid $color-ebeb }
+.border-r{ border-right: 1px solid $color-ebeb }
+.border-x{ border-left: 1px solid $color-ebeb; border-right: 1px solid $color-ebeb }
+.border-y{ border-top: 1px solid $color-ebeb; border-bottom: 1px solid $color-ebeb }
+
+//substraer
+.border-0{ border: 0 }
+.border-t-0{ border: 1px solid $color-ebeb; border-top: 0 }
+.border-b-0{ border: 1px solid $color-ebeb; border-bottom: 0 }
+.border-l-0{ border: 1px solid $color-ebeb; border-left: 0 }
+.border-r-0{ border: 1px solid $color-ebeb; border-right: 0 }
+.border-x-0{ border: 1px solid $color-ebeb; border-left: 0; border-right: 0 }
+.border-y-0{ border: 1px solid $color-ebeb; border-top: 0; border-bottom: 0 }
+
+//border-color
+.border-primary-brand{ border-color: $color-primary-brand }
+.border-secundary-brand{ border-color: $color-secundary-brand }
+.border-primary{ border-color: $color-primary }
+.border-secundary{ border-color: $color-secundary }
+.border-danger{ border-color: $color-danger }
+.border-warning{ border-color: $color-warning }
+.border-black{ border-color: $color-black }
+.border-white{ border-color: $color-white }
+.border-light{ border-color: $color-light }
+.border-ebeb{ border-color: $color-ebeb }
